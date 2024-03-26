@@ -1,0 +1,6 @@
+
+.liStyle:hover{
+    border-bottom: solid 2px green;
+    cursor: pointer;
+    transform: translateY(5px);
+}

@@ -1,0 +1,44 @@
+
+.hero-header {
+    background: url("../../assets/download.jpeg") no-repeat center;
+   
+    height: calc(100vh - 60px);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.white-shadow{
+    /* background-color: white; */
+    height: calc(100vh - 60px);
+    background-size: cover;
+    
+    position: relative;    
+    opacity: .6;
+
+}
+
+.dark-shadow-card{
+    background-color:gray;
+    background-position: center;
+    /* height: calc(100vh - 60px); */
+    opacity: .7;
+  
+
+}
+
+
+
+
+/* Categories */
+.cat-style{
+    height: 50%;
+}
+
+@media (max-width :660) {
+    .header-section{
+        width: auto;
+    }
+}
